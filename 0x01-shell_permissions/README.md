@@ -1,0 +1,2 @@
+# Shell permissions 
+This project focuses on understanding and managing file permissions in Linux, a key component of system security. The project explore the basics of file ownership, user roles, and permission settings, including changing permissions for files and directories.
