@@ -1,1 +1,2 @@
 #!/bin/bash
+chnod +x hello
