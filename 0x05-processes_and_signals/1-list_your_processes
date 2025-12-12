@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A  Bash script that displays a list of currently running processes with the following specific requirements
+# A Bash script that displays all currently running processes in a hierarchical format
 
-ps aux
+ps axjf
