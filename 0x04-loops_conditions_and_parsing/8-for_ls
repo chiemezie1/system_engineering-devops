@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-# Display the contents of the current directory, showing only the part after the first dash
-
+# This script displays the content of a dir in list format
 for file in *; do
-    # Skip hidden files (those starting with .)
-    [[ $file == .* ]] && continue
-    # Extract the part after the first dash
-    echo "${file#*-}"
+	[[ -e $file ]] || break # handle empty cases
+	echo "$file" | cut -d "-" -f 2
 done
