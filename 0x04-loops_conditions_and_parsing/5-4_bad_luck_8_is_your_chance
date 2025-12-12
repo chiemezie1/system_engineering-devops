@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Display numbers from 1 to 20
-# Show “bad luck” messages for 4, 9, and 17 using a case statement
+# Display numbers from 1 to 20. Show “bad luck” messages for 4, 9, and 17 using a case statement
 
 counter=1
 
