@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Display processes in required format
+# Display processes in required format of lines containing the word bash
 
 ps -auxf | grep bash
