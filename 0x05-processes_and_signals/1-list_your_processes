@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Display processes in required format
 
-ps -eo ppid,time,cmd
+ps -auxf
